@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME ZONE</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>ROCK PAPER SCISSORS?</h1>
+    <!-- ye choices hongi -->
+    <div class="choices">
+        <!-- phle hi sabko ek id denge, taki js m easily track kar ske -->
+        <div class="choice" id="rock">
+            <img src="./images/rock.png"/>
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png"/>
+        </div>
+        <div class="choice" id="scissor">
+            <img src="./images/scissors.png"/>
+        </div>
+    </div>
+
+    <!-- score  -->
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>COMPUTER</p>
+        </div>
+    </div>
+
+    <div class="msg-cnt">
+        <p id="msg">PLAY YOUR MOVE!</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
